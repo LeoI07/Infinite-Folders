@@ -1,4 +1,5 @@
 This shows you how to customize this batch file. Only lines that are customizable are mentioned here.
+Note: If you're an expert with Windows NT code, you most likely won't need this guide.
 
 echo Ensure this batch file is running as administrator. (Line 3): Change what comes after "echo" to set a custom message that will show before the program runs. Removing this line disables the message.
 cd C:\Users\Public\Documents (Line 4): Sets the directory the program will run in. Normally it's the Public Documents folder, but any full path will work.
