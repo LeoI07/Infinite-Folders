@@ -1,0 +1,9 @@
+This shows you how to customize this batch file.
+
+echo Ensure this batch file is running as administrator. (Line 3): Change what comes after "echo" to set a custom message that will show before the program runs. Removing this line disables the message.
+cd C:\Users\Public\Documents (Line 4): Sets the directory the program will run in. Normally it's the Public Documents folder, but any full path will work.
+goto loop (Line 5): Tells the program to start its payload. You may replace "loop" with anything that has no spaces.
+:loop (Line 7): The text below this line will be the payload's code. Make sure what is in "loop"'s place is the same as what's in "loop"'s place in line 5.
+mkdir h (Line 8): Sets the name of and creates the directory that will be created inside itself over and over. What is in "h"'s place can be anything, as long as it has no spaces.
+cd h (Line 9): Changes the current directory to the one the program created. Make sure what's in "h"'s place is the same as what's in "h"'s place in Line 7.
+goto loop (Line 10): Loops the payload. Make sure what's in "loop"'s place is the same as what's in "loop"'s place in lines 5 and 7.
